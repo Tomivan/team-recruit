@@ -76,3 +76,36 @@ hr{
     border: none;
     border-radius: 8px;
 }
+@media screen and (max-width: 767px) {
+    .input-1{
+        margin-left: -20%;
+    }
+    .logos{
+        margin-left: -10%;
+        margin-top: 4%;
+    }
+    hr{
+       margin: 7%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .input-1{
+        margin-left: -18%;
+    }
+    .mastercard{
+        margin-top: 3%;
+    }
+    .input-1::placeholder{
+        padding-left: 7em;
+    }
+    .logos{
+        margin-left: -10%;
+        margin-top: 4%;
+    }
+    hr{
+        margin: 7%;
+     }
+     .pay-now{
+        margin-top: 5%;
+     }
+}

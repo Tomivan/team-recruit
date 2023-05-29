@@ -50,3 +50,24 @@
     height: 5vh;
     margin-top: 18%;
 }
+
+@media screen and (max-width: 767px) {
+    .summary{
+        width: 84vw;
+    }
+    .circle{
+        width: 4vw;
+    }
+    .circle-1{
+        margin-left: -6%;
+    }
+    .circle-2{
+        left: 6%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .border{
+        margin-top: -30%;
+        height: 13vh;
+    }
+}

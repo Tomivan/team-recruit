@@ -9,8 +9,9 @@ body{
     display: flex;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .page{
         flex-direction: column;
+        width: 95%;
     }
 }
