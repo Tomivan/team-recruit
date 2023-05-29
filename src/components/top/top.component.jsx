@@ -5,14 +5,14 @@ import "./top.css";
 const Top = () => {
     return(
         <div className="top">
-            <div className="log">
-                <FaMoneyCheck />
+            <div className="flex">
+                <FaMoneyCheck className="logo"/>
                 <p>AceCoinPay</p>
             </div>
-            <div className="time">
+            <div className="flex">
                 <p className="blue">0</p>
                 <p className="blue">1</p>
-                <p>:</p>
+                <p className="colon">:</p>
                 <p className="blue">1</p>
                 <p className="blue">9</p>
             </div>

@@ -1,0 +1,78 @@
+.form-top{
+    display: flex;
+    justify-content: space-between;
+}
+.edit{
+    display: flex;
+    color: blue;
+}
+.edit-icon{
+    padding: 1em;
+}
+.input{
+    display: flex;
+}
+.mastercard {
+    height: 3vh;
+    z-index: 10;
+    padding: 1em;
+}
+input{
+    height: 8vh;
+    border: 1px solid #0000001e;
+    border-radius: 10px;
+    width: 100%;
+}
+.input-1{
+    margin-left: -7%;
+}
+.input-1::placeholder{
+    padding-left: 5em;
+}
+input[value]{
+    padding-left: 2em;
+}
+.logos{
+    display: flex;
+    margin-left: -7%;
+    margin-top: 1%;
+}
+.certificate{
+    height: 4vh;
+    width: 6vw;
+    color: blue;
+}
+.check{
+    position: relative;
+    left: -50%;
+    top: 15%;
+    height: 2vh;
+    color: #ffffff;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.card-detail{
+    margin-top: -1.5%;
+}
+.th{
+    position: relative;
+    left: -10%;
+    height: 8vh;
+    color: gray;
+}
+hr{
+    margin: 3%;
+    transform: rotate(35deg);
+    height: 3vh;
+}
+.pay-now{
+    height: 8vh;
+    width: 100%;
+    background: blue;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+}

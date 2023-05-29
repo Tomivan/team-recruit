@@ -1,0 +1,52 @@
+.summary{
+    padding: 1em;
+    width: 20vw;
+    background: #eeeeee;
+    margin-top: -57%;
+    border-radius: 20px;
+}
+.summary-top{
+    margin-top: 60%;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.circles{
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    height: 5vh;
+    width: 3vw;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.circle-1{
+    margin-left: -15%;
+}
+.circle-2{
+    position: relative;
+    left: 15%;
+}
+.border{
+    border: 1px dashed #0000001e;
+    transform: rotate(90deg);
+    height: 35vh;
+    margin: -35% 0 0 15%;
+}
+.apple{
+    background: #000000;
+    padding: 0.2em;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.summary-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40%;
+}
+.bookmark{
+    height: 5vh;
+    margin-top: 18%;
+}
